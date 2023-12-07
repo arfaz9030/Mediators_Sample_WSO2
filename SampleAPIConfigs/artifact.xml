@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="MessageTypeTransform" groupId="com.example.mockAPI.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/MessageTypeTransform.xml</file>
+    </artifact>
+    <artifact name="Mockproxy" groupId="com.example.mockAPI.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/Mockproxy.xml</file>
+    </artifact>
+    <artifact name="HealthCareAPI_payload_funcancat" groupId="com.example.mockAPI.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/HealthCareAPI_payload_funcancat.xml</file>
+    </artifact>
+    <artifact name="EnrichMedi" groupId="com.example.mockAPI.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/EnrichMedi.xml</file>
+    </artifact>
+    <artifact name="EnrichMedi_swagger" groupId="com.example.mockAPI.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/EnrichMedi_swagger.yaml</file>
+    </artifact>
+    <artifact name="EnrichMedi_metadata" groupId="com.example.mockAPI.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/EnrichMedi_metadata.yaml</file>
+    </artifact>
+    <artifact name="Headermedi" groupId="com.example.mockAPI.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/Headermedi.xml</file>
+    </artifact>
+    <artifact name="Headermedi_swagger" groupId="com.example.mockAPI.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/Headermedi_swagger.yaml</file>
+    </artifact>
+    <artifact name="Headermedi_metadata" groupId="com.example.mockAPI.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/Headermedi_metadata.yaml</file>
+    </artifact>
+    <artifact name="InjectXMLSequence" groupId="com.example.mockAPI.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/InjectXMLSequence.xml</file>
+    </artifact>
+    <artifact name="InjectTask" groupId="com.example.mockAPI.task" version="1.0.0" type="synapse/task" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/tasks/InjectTask.xml</file>
+    </artifact>
+</artifacts>

@@ -18,77 +18,26 @@
     <com.example.mockAPI.api_._EnrichMedi>capp/EnterpriseServiceBus</com.example.mockAPI.api_._EnrichMedi>
     <com.example.mockAPI.api_._Headermedi>capp/EnterpriseServiceBus</com.example.mockAPI.api_._Headermedi>
     <com.example.mockAPI.metadata_._EnrichMedi_metadata>capp/EnterpriseServiceBus</com.example.mockAPI.metadata_._EnrichMedi_metadata>
-    <com.example.mockAPI.api_._MessageTypeTransform>capp/EnterpriseServiceBus</com.example.mockAPI.api_._MessageTypeTransform>
-    <com.example.mockAPI.sequence_._InjectXMLSequence>capp/EnterpriseServiceBus</com.example.mockAPI.sequence_._InjectXMLSequence>
     <com.example.mockAPI.metadata_._EnrichMedi_swagger>capp/EnterpriseServiceBus</com.example.mockAPI.metadata_._EnrichMedi_swagger>
+    <com.example.mockAPI.sequence_._InjectXMLSequence>capp/EnterpriseServiceBus</com.example.mockAPI.sequence_._InjectXMLSequence>
     <com.example.mockAPI.metadata_._HealthCareAPI_payload_funcancat_metadata>capp/ApplicationServer</com.example.mockAPI.metadata_._HealthCareAPI_payload_funcancat_metadata>
     <com.example.mockAPI.metadata_._Headermedi_swagger>capp/EnterpriseServiceBus</com.example.mockAPI.metadata_._Headermedi_swagger>
+    <com.example.mockAPI.api_._MessageTypeTransform>capp/EnterpriseServiceBus</com.example.mockAPI.api_._MessageTypeTransform>
     <com.example.mockAPI.metadata_._Headermedi_metadata>capp/EnterpriseServiceBus</com.example.mockAPI.metadata_._Headermedi_metadata>
     <com.example.mockAPI.metadata_._MockAPI_metadata>capp/EnterpriseServiceBus</com.example.mockAPI.metadata_._MockAPI_metadata>
+    <com.example.mockAPI.metadata_._Xslt_Mediator_swagger>capp/EnterpriseServiceBus</com.example.mockAPI.metadata_._Xslt_Mediator_swagger>
     <com.example.mockAPI.metadata_._MockAPI_swagger>capp/EnterpriseServiceBus</com.example.mockAPI.metadata_._MockAPI_swagger>
     <com.example.mockAPI.task_._InjectTask>capp/EnterpriseServiceBus</com.example.mockAPI.task_._InjectTask>
     <com.example.mockAPI.api_._HealthCareAPI_payload_funcancat>capp/EnterpriseServiceBus</com.example.mockAPI.api_._HealthCareAPI_payload_funcancat>
+    <com.example.mockAPI.metadata_._Xslt_Mediator_metadata>capp/EnterpriseServiceBus</com.example.mockAPI.metadata_._Xslt_Mediator_metadata>
     <artifact.types>jaggery/app=zip,synapse/priority-executor=xml,synapse/inbound-endpoint=xml,service/rule=aar,synapse/message-store=xml,event/stream=json,service/meta=xml,datasource/datasource=xml,synapse/proxy-service=xml,bpel/workflow=zip,synapse/sequence=xml,synapse/endpointTemplate=xml,carbon/application=car,wso2/gadget=dar,synapse/api=xml,synapse/event-source=xml,synapse/message-processors=xml,event/receiver=xml,lib/dataservice/validator=jar,synapse/template=xml,synapse/endpoint=xml,lib/carbon/ui=jar,lib/synapse/mediator=jar,synapse/metadata=yaml,event/publisher=xml,synapse/local-entry=xml,synapse/task=xml,webapp/jaxws=war,registry/resource=zip,synapse/configuration=xml,service/axis2=aar,synapse/lib=zip,synapse/sequenceTemplate=xml,event/execution-plan=siddhiql,service/dataservice=dbs,web/application=war,lib/library/bundle=jar</artifact.types>
+    <com.example.mockAPI.api_._Xslt_Mediator>capp/EnterpriseServiceBus</com.example.mockAPI.api_._Xslt_Mediator>
     <com.example.mockAPI.metadata_._HealthCareAPI_swagger>capp/EnterpriseServiceBus</com.example.mockAPI.metadata_._HealthCareAPI_swagger>
   </properties>
   <dependencies>
     <dependency>
-      <groupId>com.example.mockAPI.proxy-service</groupId>
-      <artifactId>Mockproxy</artifactId>
-      <version>1.0.0</version>
-      <type>xml</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.mockAPI.api</groupId>
-      <artifactId>EnrichMedi</artifactId>
-      <version>1.0.0</version>
-      <type>xml</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.mockAPI.api</groupId>
-      <artifactId>Headermedi</artifactId>
-      <version>1.0.0</version>
-      <type>xml</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.mockAPI.metadata</groupId>
-      <artifactId>EnrichMedi_metadata</artifactId>
-      <version>1.0.0</version>
-      <type>yaml</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.mockAPI.api</groupId>
-      <artifactId>MessageTypeTransform</artifactId>
-      <version>1.0.0</version>
-      <type>xml</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.mockAPI.sequence</groupId>
-      <artifactId>InjectXMLSequence</artifactId>
-      <version>1.0.0</version>
-      <type>xml</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.mockAPI.metadata</groupId>
-      <artifactId>EnrichMedi_swagger</artifactId>
-      <version>1.0.0</version>
-      <type>yaml</type>
-    </dependency>
-    <dependency>
       <groupId>com.example.mockAPI.metadata</groupId>
       <artifactId>HealthCareAPI_payload_funcancat_metadata</artifactId>
-      <version>1.0.0</version>
-      <type>yaml</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.mockAPI.metadata</groupId>
-      <artifactId>Headermedi_swagger</artifactId>
-      <version>1.0.0</version>
-      <type>yaml</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.mockAPI.metadata</groupId>
-      <artifactId>Headermedi_metadata</artifactId>
       <version>1.0.0</version>
       <type>yaml</type>
     </dependency>
@@ -105,8 +54,44 @@
       <type>yaml</type>
     </dependency>
     <dependency>
-      <groupId>com.example.mockAPI.task</groupId>
-      <artifactId>InjectTask</artifactId>
+      <groupId>com.example.mockAPI.metadata</groupId>
+      <artifactId>HealthCareAPI_swagger</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.mockAPI.metadata</groupId>
+      <artifactId>EnrichMedi_metadata</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.mockAPI.metadata</groupId>
+      <artifactId>EnrichMedi_swagger</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.mockAPI.api</groupId>
+      <artifactId>EnrichMedi</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.mockAPI.metadata</groupId>
+      <artifactId>Headermedi_metadata</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.mockAPI.metadata</groupId>
+      <artifactId>Headermedi_swagger</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.mockAPI.api</groupId>
+      <artifactId>Headermedi</artifactId>
       <version>1.0.0</version>
       <type>xml</type>
     </dependency>
@@ -117,10 +102,46 @@
       <type>xml</type>
     </dependency>
     <dependency>
+      <groupId>com.example.mockAPI.api</groupId>
+      <artifactId>MessageTypeTransform</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
       <groupId>com.example.mockAPI.metadata</groupId>
-      <artifactId>HealthCareAPI_swagger</artifactId>
+      <artifactId>Xslt_Mediator_metadata</artifactId>
       <version>1.0.0</version>
       <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.mockAPI.metadata</groupId>
+      <artifactId>Xslt_Mediator_swagger</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.mockAPI.api</groupId>
+      <artifactId>Xslt_Mediator</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.mockAPI.proxy-service</groupId>
+      <artifactId>Mockproxy</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.mockAPI.sequence</groupId>
+      <artifactId>InjectXMLSequence</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.mockAPI.task</groupId>
+      <artifactId>InjectTask</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
     </dependency>
   </dependencies>
   <repositories>

@@ -32,4 +32,13 @@
     <artifact name="InjectTask" groupId="com.example.mockAPI.task" version="1.0.0" type="synapse/task" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/tasks/InjectTask.xml</file>
     </artifact>
+    <artifact name="Xslt_Mediator" groupId="com.example.mockAPI.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/Xslt_Mediator.xml</file>
+    </artifact>
+    <artifact name="Xslt_Mediator_swagger" groupId="com.example.mockAPI.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/Xslt_Mediator_swagger.yaml</file>
+    </artifact>
+    <artifact name="Xslt_Mediator_metadata" groupId="com.example.mockAPI.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/Xslt_Mediator_metadata.yaml</file>
+    </artifact>
 </artifacts>

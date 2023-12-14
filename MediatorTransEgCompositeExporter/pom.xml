@@ -16,6 +16,7 @@
   <properties>
     <com.aibiz.api_._MessageTypeTransform>capp/EnterpriseServiceBus</com.aibiz.api_._MessageTypeTransform>
     <com.aibiz.metadata_._HealthCareAPI_payload_funcancat_metadata>capp/EnterpriseServiceBus</com.aibiz.metadata_._HealthCareAPI_payload_funcancat_metadata>
+    <com.aibiz.resource_._SampleXsltForLaterUse>capp/EnterpriseIntegrator</com.aibiz.resource_._SampleXsltForLaterUse>
     <com.aibiz.metadata_._MessageTypeTransform_swagger>capp/EnterpriseServiceBus</com.aibiz.metadata_._MessageTypeTransform_swagger>
     <com.aibiz.api_._Xslt_Mediator>capp/EnterpriseServiceBus</com.aibiz.api_._Xslt_Mediator>
     <com.aibiz.metadata_._EnrichDemo_metadata>capp/EnterpriseServiceBus</com.aibiz.metadata_._EnrichDemo_metadata>
@@ -142,6 +143,12 @@
       <artifactId>Xslt_Mediator</artifactId>
       <version>1.0.0</version>
       <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.aibiz.resource</groupId>
+      <artifactId>SampleXsltForLaterUse</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
     </dependency>
   </dependencies>
   <repositories>

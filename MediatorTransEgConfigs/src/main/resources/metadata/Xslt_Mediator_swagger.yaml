@@ -4,10 +4,10 @@ info:
   description: API Definition of Xslt_Mediator
   version: 1.0.0
 servers:
-- url: http://localhost:8290/xslt-mediator-example
+- url: http://localhost:8290/getxsl
 paths:
   /:
-    get:
+    post:
       responses:
         default:
           description: Default response

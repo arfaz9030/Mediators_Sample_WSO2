@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<api context="/xslt-mediator-example" name="Xslt_Mediator" xmlns="http://ws.apache.org/ns/synapse">
-    <resource methods="GET">
+<api context="/getxsl" name="Xslt_Mediator" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST">
         <inSequence>
-            <xslt description="sample_test" key=""/>
+            <log description="log for xsl"/>
+            <xslt description="getxslt" key="gov:endpoints/SampleXsltForLaterUse.xslt"/>
+            <respond description="respforsxslt"/>
         </inSequence>
         <outSequence/>
         <faultSequence/>

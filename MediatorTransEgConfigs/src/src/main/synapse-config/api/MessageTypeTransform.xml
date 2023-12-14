@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/Duplicat" name="MessageTypeTransform" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET">
+        <inSequence>
+            <log description="compartment before nothing"/>
+            <payloadFactory description="Daa Message" media-type="xml">
+                <format>
+                    <students xmlns="">
+                        <student>
+                            <name>Arfaz</name>
+                            <Age>19</Age>
+                        </student>
+                    </students>
+                </format>
+                <args/>
+            </payloadFactory>
+            <log description="payload after message log" level="full"/>
+            <property description="new property to transform using messageType property" name="messageType" scope="axis2" type="STRING" value="application/xml"/>
+            <respond description="Finish"/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

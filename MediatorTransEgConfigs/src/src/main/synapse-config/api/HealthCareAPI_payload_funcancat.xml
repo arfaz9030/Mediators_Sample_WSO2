@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/healthcare" name="HealthCareAPI_payload_funcancat" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/{char}/{word}">
+        <inSequence>
+            <property description="character" expression="get-property('uri.var.char')" name="storechar" scope="default" type="STRING"/>
+            <log description="char1" level="custom">
+                <property expression="get-property('storechar')" name="charac1"/>
+            </log>
+            <property description="Word" expression="get-property('uri.var.word')" name="wordparam" scope="default" type="STRING"/>
+            <log description="word1" level="custom">
+                <property expression="get-property('wordparam')" name="word1"/>
+            </log>
+            <payloadFactory description="fact" media-type="json">
+                <format>
+					{"msg":"$1"}
+				</format>
+                <args>
+                    <arg evaluator="xml" expression="fn:concat('Assalamualaikum',' ',get-property('storechar'),' ', get-property('wordparam'))"/>
+                </args>
+            </payloadFactory>
+            <respond description="get"/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

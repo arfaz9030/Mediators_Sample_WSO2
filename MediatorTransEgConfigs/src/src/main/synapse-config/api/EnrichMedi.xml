@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/learnenrich" name="EnrichMedi" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST">
+        <inSequence>
+            <property name="Greeting" scope="default" type="STRING" value="{&quot;name&quot;:&quot;arfaz&quot;}"/>
+            <log level="full"/>
+            <enrich description="using for learning">
+                <source clone="true" property="Greeting" type="property"/>
+                <target type="body"/>
+            </enrich>
+            <log level="full"/>
+            <!-- enrich> <source clone="false" type="envelope"/> <target property="payload" 
+				type="property"/> </enrich -->
+            <respond description="toRespond"/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

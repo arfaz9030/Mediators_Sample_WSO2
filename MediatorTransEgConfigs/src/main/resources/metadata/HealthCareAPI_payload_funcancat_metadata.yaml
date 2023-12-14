@@ -1,0 +1,11 @@
+---
+key: "HealthCareAPI_payload_funcancat-1.0.0"
+name : "HealthCareAPI_payload_funcancat"
+displayName : "HealthCareAPI_payload_funcancat"
+description: "Sample API"
+version: "1.0.0"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/set"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false
+apiId : "null"

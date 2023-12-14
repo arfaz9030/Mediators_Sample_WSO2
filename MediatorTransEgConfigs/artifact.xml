@@ -8,4 +8,40 @@
     <artifact name="EnrichMedi_metadata" groupId="com.aibiz.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
         <file>src/main/resources/metadata/EnrichMedi_metadata.yaml</file>
     </artifact>
+    <artifact name="Headermedi" groupId="com.aibiz.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/Headermedi.xml</file>
+    </artifact>
+    <artifact name="Headermedi_swagger" groupId="com.aibiz.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/Headermedi_swagger.yaml</file>
+    </artifact>
+    <artifact name="Headermedi_metadata" groupId="com.aibiz.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/Headermedi_metadata.yaml</file>
+    </artifact>
+    <artifact name="HealthCareAPI_payload_funcancat" groupId="com.aibiz.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/HealthCareAPI_payload_funcancat.xml</file>
+    </artifact>
+    <artifact name="HealthCareAPI_payload_funcancat_swagger" groupId="com.aibiz.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/HealthCareAPI_payload_funcancat_swagger.yaml</file>
+    </artifact>
+    <artifact name="HealthCareAPI_payload_funcancat_metadata" groupId="com.aibiz.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/HealthCareAPI_payload_funcancat_metadata.yaml</file>
+    </artifact>
+    <artifact name="MessageTypeTransform" groupId="com.aibiz.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/MessageTypeTransform.xml</file>
+    </artifact>
+    <artifact name="MessageTypeTransform_swagger" groupId="com.aibiz.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/MessageTypeTransform_swagger.yaml</file>
+    </artifact>
+    <artifact name="MessageTypeTransform_metadata" groupId="com.aibiz.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/MessageTypeTransform_metadata.yaml</file>
+    </artifact>
+    <artifact name="Xslt_Mediator" groupId="com.aibiz.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/Xslt_Mediator.xml</file>
+    </artifact>
+    <artifact name="Xslt_Mediator_swagger" groupId="com.aibiz.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/Xslt_Mediator_swagger.yaml</file>
+    </artifact>
+    <artifact name="Xslt_Mediator_metadata" groupId="com.aibiz.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/Xslt_Mediator_metadata.yaml</file>
+    </artifact>
 </artifacts>

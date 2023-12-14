@@ -1,13 +1,13 @@
 openapi: 3.0.1
 info:
-  title: EnrichMedi
-  description: API Definition of EnrichMedi
+  title: MessageTypeTransform
+  description: API Definition of MessageTypeTransform
   version: 1.0.0
 servers:
-- url: http://localhost:8290/learnenrich
+- url: http://localhost:8290/Duplicat
 paths:
   /:
-    post:
+    get:
       responses:
         default:
           description: Default response

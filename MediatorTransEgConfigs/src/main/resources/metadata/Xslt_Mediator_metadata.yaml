@@ -4,7 +4,7 @@ name : "Xslt_Mediator"
 displayName : "Xslt_Mediator"
 description: "Sample API"
 version: "1.0.0"
-serviceUrl: "https://{MI_HOST}:{MI_PORT}/xslt-mediator-example"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/xslt-medi"
 definitionType: "OAS3"
 securityType: "BASIC"
 mutualSSLEnabled: false

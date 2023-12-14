@@ -14,12 +14,24 @@
   <name>MediatorTransEgCompositeExporter</name>
   <description>MediatorTransEgCompositeExporter</description>
   <properties>
-    <com.aibiz.metadata_._EnrichDemo_swagger>capp/EnterpriseServiceBus</com.aibiz.metadata_._EnrichDemo_swagger>
+    <com.aibiz.api_._MessageTypeTransform>capp/EnterpriseServiceBus</com.aibiz.api_._MessageTypeTransform>
+    <com.aibiz.metadata_._HealthCareAPI_payload_funcancat_metadata>capp/EnterpriseServiceBus</com.aibiz.metadata_._HealthCareAPI_payload_funcancat_metadata>
+    <com.aibiz.metadata_._MessageTypeTransform_swagger>capp/EnterpriseServiceBus</com.aibiz.metadata_._MessageTypeTransform_swagger>
+    <com.aibiz.api_._Xslt_Mediator>capp/EnterpriseServiceBus</com.aibiz.api_._Xslt_Mediator>
     <com.aibiz.metadata_._EnrichDemo_metadata>capp/EnterpriseServiceBus</com.aibiz.metadata_._EnrichDemo_metadata>
     <com.example.mockAPI.metadata_._EnrichMedi_metadata>capp/EnterpriseServiceBus</com.example.mockAPI.metadata_._EnrichMedi_metadata>
+    <com.aibiz.metadata_._HealthCareAPI_payload_funcancat_swagger>capp/EnterpriseServiceBus</com.aibiz.metadata_._HealthCareAPI_payload_funcancat_swagger>
     <com.example.mockAPI.metadata_._EnrichMedi_swagger>capp/EnterpriseServiceBus</com.example.mockAPI.metadata_._EnrichMedi_swagger>
+    <com.aibiz.metadata_._MessageTypeTransform_metadata>capp/EnterpriseServiceBus</com.aibiz.metadata_._MessageTypeTransform_metadata>
+    <com.aibiz.api_._Headermedi>capp/EnterpriseServiceBus</com.aibiz.api_._Headermedi>
+    <com.example.mockAPI.metadata_._Headermedi_swagger>capp/EnterpriseServiceBus</com.example.mockAPI.metadata_._Headermedi_swagger>
+    <com.example.mockAPI.metadata_._Headermedi_metadata>capp/EnterpriseServiceBus</com.example.mockAPI.metadata_._Headermedi_metadata>
+    <com.example.mockAPI.metadata_._Xslt_Mediator_swagger>capp/EnterpriseServiceBus</com.example.mockAPI.metadata_._Xslt_Mediator_swagger>
+    <com.aibiz.metadata_._EnrichDemo_swagger>capp/EnterpriseServiceBus</com.aibiz.metadata_._EnrichDemo_swagger>
+    <com.example.mockAPI.metadata_._Xslt_Mediator_metadata>capp/EnterpriseServiceBus</com.example.mockAPI.metadata_._Xslt_Mediator_metadata>
     <com.aibiz.api_._EnrichMedi>capp/EnterpriseServiceBus</com.aibiz.api_._EnrichMedi>
     <artifact.types>jaggery/app=zip,synapse/priority-executor=xml,synapse/inbound-endpoint=xml,service/rule=aar,synapse/message-store=xml,event/stream=json,service/meta=xml,datasource/datasource=xml,synapse/proxy-service=xml,bpel/workflow=zip,synapse/sequence=xml,synapse/endpointTemplate=xml,carbon/application=car,wso2/gadget=dar,synapse/api=xml,synapse/event-source=xml,synapse/message-processors=xml,event/receiver=xml,lib/dataservice/validator=jar,synapse/template=xml,synapse/endpoint=xml,lib/carbon/ui=jar,lib/synapse/mediator=jar,synapse/metadata=yaml,event/publisher=xml,synapse/local-entry=xml,synapse/task=xml,webapp/jaxws=war,registry/resource=zip,synapse/configuration=xml,service/axis2=aar,synapse/lib=zip,synapse/sequenceTemplate=xml,event/execution-plan=siddhiql,service/dataservice=dbs,web/application=war,lib/library/bundle=jar</artifact.types>
+    <com.aibiz.api_._HealthCareAPI_payload_funcancat>capp/EnterpriseServiceBus</com.aibiz.api_._HealthCareAPI_payload_funcancat>
     <com.aibiz.api_._EnrichDemo>capp/EnterpriseServiceBus</com.aibiz.api_._EnrichDemo>
   </properties>
   <dependencies>
@@ -56,6 +68,78 @@
     <dependency>
       <groupId>com.aibiz.api</groupId>
       <artifactId>EnrichMedi</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.mockAPI.metadata</groupId>
+      <artifactId>Headermedi_metadata</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.mockAPI.metadata</groupId>
+      <artifactId>Headermedi_swagger</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.aibiz.api</groupId>
+      <artifactId>Headermedi</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.aibiz.metadata</groupId>
+      <artifactId>HealthCareAPI_payload_funcancat_metadata</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.aibiz.metadata</groupId>
+      <artifactId>HealthCareAPI_payload_funcancat_swagger</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.aibiz.api</groupId>
+      <artifactId>HealthCareAPI_payload_funcancat</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.aibiz.metadata</groupId>
+      <artifactId>MessageTypeTransform_metadata</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.aibiz.metadata</groupId>
+      <artifactId>MessageTypeTransform_swagger</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.aibiz.api</groupId>
+      <artifactId>MessageTypeTransform</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.mockAPI.metadata</groupId>
+      <artifactId>Xslt_Mediator_metadata</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.mockAPI.metadata</groupId>
+      <artifactId>Xslt_Mediator_swagger</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.aibiz.api</groupId>
+      <artifactId>Xslt_Mediator</artifactId>
       <version>1.0.0</version>
       <type>xml</type>
     </dependency>

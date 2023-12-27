@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: JsonTansform
+  description: API Definition of JsonTansform
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/xml-transform-json
+paths:
+  /:
+    post:
+      responses:
+        default:
+          description: Default response

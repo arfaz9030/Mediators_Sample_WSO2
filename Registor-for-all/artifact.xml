@@ -7,4 +7,12 @@
             <properties/>
         </item>
     </artifact>
+    <artifact name="Schema" groupId="com.aibiz.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>Schema.json</file>
+            <path>/_system/config/myresources</path>
+            <mediaType/>
+            <properties/>
+        </item>
+    </artifact>
 </artifacts>

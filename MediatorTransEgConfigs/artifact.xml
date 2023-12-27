@@ -44,4 +44,16 @@
     <artifact name="Xslt_Mediator_metadata" groupId="com.aibiz.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
         <file>src/main/resources/metadata/Xslt_Mediator_metadata.yaml</file>
     </artifact>
+    <artifact name="JsonTansformOverrideSys" groupId="com.aibiz.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/JsonTansformOverrideSys.xml</file>
+    </artifact>
+    <artifact name="JsonTansform_swagger" groupId="com.aibiz.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/JsonTansform_swagger.yaml</file>
+    </artifact>
+    <artifact name="JsonTansform_metadata" groupId="com.aibiz.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/JsonTansform_metadata.yaml</file>
+    </artifact>
+    <artifact name="JsonTransXmlUseSchema" groupId="com.aibiz.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/JsonTransXmlUseSchema.xml</file>
+    </artifact>
 </artifacts>

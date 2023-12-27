@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/json-default-properties" name="JsonTransXmlUseSchema" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST">
+        <inSequence>
+            <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+            <jsontransform description="Using a JSON schema with default synapse properties not effecting datatypes(string, integer) by JSON schema file" schema="conf:myresources/Schema.json"/>
+            <respond description="jsontransform"/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

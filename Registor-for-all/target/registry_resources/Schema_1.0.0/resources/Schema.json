@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "properties": {
+    "Shop": {
+      "type": "array",
+      "properties": {
+        "fruit": {
+          "type": "string"
+        },
+        "price": {
+          "type": "number"
+        },
+        "quantity": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "fruit",
+        "price",
+        "quantity"
+      ]
+    }
+  },
+  "required": [
+    "Shop"
+  ]
+}

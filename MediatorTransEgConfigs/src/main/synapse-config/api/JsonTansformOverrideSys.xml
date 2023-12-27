@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/xml-transform-json" name="JsonTansformOverrideSys" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST">
+        <inSequence>
+            <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+            <jsontransform description="Override-global-synapse properties become string of whole values of response(json) and using json schema for array" schema="conf:myresources/Schema.json">
+                <property name="synapse.commons.json.output.autoPrimitive" value="false"/>
+            </jsontransform>
+            <respond description="jsontransform"/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

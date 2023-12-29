@@ -1,0 +1,11 @@
+---
+key: "ClassMediator-1.0.0"
+name : "ClassMediator"
+displayName : "ClassMediator"
+description: "Sample API"
+version: "1.0.0"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/class"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false
+apiId : "null"

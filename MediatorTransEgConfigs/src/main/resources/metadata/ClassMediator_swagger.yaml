@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: ClassMediator
+  description: API Definition of ClassMediator
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/toCase
+paths:
+  /:
+    get:
+      responses:
+        default:
+          description: Default response

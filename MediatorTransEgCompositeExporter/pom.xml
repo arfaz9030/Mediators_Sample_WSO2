@@ -20,7 +20,9 @@
     <com.aibiz.resource_._SampleXsltForLaterUse>capp/EnterpriseIntegrator</com.aibiz.resource_._SampleXsltForLaterUse>
     <com.aibiz.metadata_._HealthCareAPI_payload_funcancat_metadata>capp/EnterpriseServiceBus</com.aibiz.metadata_._HealthCareAPI_payload_funcancat_metadata>
     <com.aibiz.metadata_._EnrichDemo_metadata>capp/EnterpriseServiceBus</com.aibiz.metadata_._EnrichDemo_metadata>
+    <com.aibiz.api_._ClassMediator>capp/EnterpriseServiceBus</com.aibiz.api_._ClassMediator>
     <com.aibiz.metadata_._MessageTypeTransform_metadata>capp/EnterpriseServiceBus</com.aibiz.metadata_._MessageTypeTransform_metadata>
+    <com.aibiz.samp_._ClassMeditorCustom>capp/EnterpriseServiceBus</com.aibiz.samp_._ClassMeditorCustom>
     <com.aibiz.metadata_._Xslt_Mediator_swagger>capp/EnterpriseServiceBus</com.aibiz.metadata_._Xslt_Mediator_swagger>
     <com.aibiz.api_._Headermedi>capp/EnterpriseServiceBus</com.aibiz.api_._Headermedi>
     <com.example.mockAPI.metadata_._Headermedi_swagger>capp/EnterpriseServiceBus</com.example.mockAPI.metadata_._Headermedi_swagger>
@@ -29,6 +31,7 @@
     <com.aibiz.metadata_._Xslt_Mediator_metadata>capp/EnterpriseServiceBus</com.aibiz.metadata_._Xslt_Mediator_metadata>
     <com.aibiz.metadata_._Headermedi_metadata>capp/EnterpriseServiceBus</com.aibiz.metadata_._Headermedi_metadata>
     <com.aibiz.api_._HealthCareAPI_payload_funcancat>capp/EnterpriseServiceBus</com.aibiz.api_._HealthCareAPI_payload_funcancat>
+    <com.aibiz.sequence_._CallClassMediatordum>capp/EnterpriseServiceBus</com.aibiz.sequence_._CallClassMediatordum>
     <com.aibiz.metadata_._JsonTansform_metadata>capp/EnterpriseServiceBus</com.aibiz.metadata_._JsonTansform_metadata>
     <com.aibiz.metadata_._JsonTansform_swagger>capp/EnterpriseServiceBus</com.aibiz.metadata_._JsonTansform_swagger>
     <com.aibiz.api_._Xslt_Mediator>capp/EnterpriseServiceBus</com.aibiz.api_._Xslt_Mediator>
@@ -37,10 +40,12 @@
     <com.aibiz.metadata_._HealthCareAPI_payload_funcancat_swagger>capp/EnterpriseServiceBus</com.aibiz.metadata_._HealthCareAPI_payload_funcancat_swagger>
     <com.example.mockAPI.metadata_._EnrichMedi_swagger>capp/EnterpriseServiceBus</com.example.mockAPI.metadata_._EnrichMedi_swagger>
     <com.aibiz.api_._JsonTransXmlUseSchema>capp/EnterpriseServiceBus</com.aibiz.api_._JsonTransXmlUseSchema>
+    <com.aibiz.metadata_._ClassMediator_swagger>capp/EnterpriseServiceBus</com.aibiz.metadata_._ClassMediator_swagger>
     <com.aibiz.metadata_._EnrichMedi_metadata>capp/EnterpriseServiceBus</com.aibiz.metadata_._EnrichMedi_metadata>
     <com.aibiz.metadata_._EnrichDemo_swagger>capp/EnterpriseServiceBus</com.aibiz.metadata_._EnrichDemo_swagger>
     <com.aibiz.metadata_._Headermedi_swagger>capp/EnterpriseServiceBus</com.aibiz.metadata_._Headermedi_swagger>
     <com.example.mockAPI.metadata_._Xslt_Mediator_metadata>capp/EnterpriseServiceBus</com.example.mockAPI.metadata_._Xslt_Mediator_metadata>
+    <com.aibiz.metadata_._ClassMediator_metadata>capp/EnterpriseServiceBus</com.aibiz.metadata_._ClassMediator_metadata>
     <com.aibiz.api_._EnrichMedi>capp/EnterpriseServiceBus</com.aibiz.api_._EnrichMedi>
     <artifact.types>jaggery/app=zip,synapse/priority-executor=xml,synapse/inbound-endpoint=xml,service/rule=aar,synapse/message-store=xml,event/stream=json,service/meta=xml,datasource/datasource=xml,synapse/proxy-service=xml,bpel/workflow=zip,synapse/sequence=xml,synapse/endpointTemplate=xml,carbon/application=car,wso2/gadget=dar,synapse/api=xml,synapse/event-source=xml,synapse/message-processors=xml,event/receiver=xml,lib/dataservice/validator=jar,synapse/template=xml,synapse/endpoint=xml,lib/carbon/ui=jar,lib/synapse/mediator=jar,synapse/metadata=yaml,event/publisher=xml,synapse/local-entry=xml,synapse/task=xml,webapp/jaxws=war,registry/resource=zip,synapse/configuration=xml,service/axis2=aar,synapse/lib=zip,synapse/sequenceTemplate=xml,event/execution-plan=siddhiql,service/dataservice=dbs,web/application=war,lib/library/bundle=jar</artifact.types>
     <com.aibiz.api_._EnrichDemo>capp/EnterpriseServiceBus</com.aibiz.api_._EnrichDemo>
@@ -84,6 +89,12 @@
       <type>yaml</type>
     </dependency>
     <dependency>
+      <groupId>com.aibiz.api</groupId>
+      <artifactId>ClassMediator</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
       <groupId>com.aibiz.metadata</groupId>
       <artifactId>MessageTypeTransform_metadata</artifactId>
       <version>1.0.0</version>
@@ -109,12 +120,6 @@
     </dependency>
     <dependency>
       <groupId>com.example.mockAPI.metadata</groupId>
-      <artifactId>Headermedi_metadata</artifactId>
-      <version>1.0.0</version>
-      <type>yaml</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.mockAPI.metadata</groupId>
       <artifactId>Xslt_Mediator_swagger</artifactId>
       <version>1.0.0</version>
       <type>yaml</type>
@@ -134,6 +139,12 @@
     <dependency>
       <groupId>com.aibiz.api</groupId>
       <artifactId>HealthCareAPI_payload_funcancat</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.aibiz.sequence</groupId>
+      <artifactId>CallClassMediatordum</artifactId>
       <version>1.0.0</version>
       <type>xml</type>
     </dependency>
@@ -187,6 +198,12 @@
     </dependency>
     <dependency>
       <groupId>com.aibiz.metadata</groupId>
+      <artifactId>ClassMediator_swagger</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.aibiz.metadata</groupId>
       <artifactId>EnrichMedi_metadata</artifactId>
       <version>1.0.0</version>
       <type>yaml</type>
@@ -210,6 +227,12 @@
       <type>yaml</type>
     </dependency>
     <dependency>
+      <groupId>com.aibiz.metadata</groupId>
+      <artifactId>ClassMediator_metadata</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
+    </dependency>
+    <dependency>
       <groupId>com.aibiz.api</groupId>
       <artifactId>EnrichMedi</artifactId>
       <version>1.0.0</version>
@@ -220,6 +243,11 @@
       <artifactId>JsonTansformOverrideSys</artifactId>
       <version>1.0.0</version>
       <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.aibiz.samp</groupId>
+      <artifactId>ClassMeditorCustom</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <repositories>

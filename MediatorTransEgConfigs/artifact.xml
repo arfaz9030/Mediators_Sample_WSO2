@@ -56,4 +56,16 @@
     <artifact name="JsonTransXmlUseSchema" groupId="com.aibiz.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/api/JsonTransXmlUseSchema.xml</file>
     </artifact>
+    <artifact name="ClassMediator" groupId="com.aibiz.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/ClassMediator.xml</file>
+    </artifact>
+    <artifact name="ClassMediator_swagger" groupId="com.aibiz.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ClassMediator_swagger.yaml</file>
+    </artifact>
+    <artifact name="ClassMediator_metadata" groupId="com.aibiz.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ClassMediator_metadata.yaml</file>
+    </artifact>
+    <artifact name="CallClassMediatordum" groupId="com.aibiz.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/CallClassMediatordum.xml</file>
+    </artifact>
 </artifacts>

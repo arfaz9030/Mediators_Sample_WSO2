@@ -1,13 +1,24 @@
 openapi: 3.0.1
 info:
-  title: Headermedi
+  title: HealthCareAPI_payload_funcancat
   description: API Definition of Headermedi
   version: 1.0.0
 servers:
-- url: http://localhost:8290/header-part
+- url: http://localhost:8290/healthcare
 paths:
-  /:
+  /{char}/{word}:
     get:
+      parameters:
+      - name: char
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: word
+        in: path
+        required: true
+        schema:
+          type: string
       responses:
         default:
           description: Default response

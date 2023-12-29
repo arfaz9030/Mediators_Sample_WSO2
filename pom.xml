@@ -9,6 +9,7 @@
   <name>MediatorTransEg</name>
   <description>MediatorTransEg</description>
   <modules>
+    <module>ClassMeditorCustom</module>
     <module>Registor-for-all</module>
     <module>MediatorTransEgConfigs</module>
     <module>MediatorTransEgCompositeExporter</module>

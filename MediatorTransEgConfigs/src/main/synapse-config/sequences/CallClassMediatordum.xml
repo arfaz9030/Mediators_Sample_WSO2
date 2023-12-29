@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="CallClassMediatordum" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <property description="set value city already present in class" name="CITY" scope="default" type="STRING" value="Nandalur"/>
+    <class name="com.aibiz.classexample.ShowNameUpperCase"/>
+    <log description="Fetch the value from class mediator(class file)">
+        <property expression="$ctx:CONVERTED" name="======================"/>
+    </log>
+    <payloadFactory description="build_json" media-type="json">
+        <format>{
+"converted-to-uppercase":"$1"
+}</format>
+        <args>
+            <arg evaluator="xml" expression="$ctx:CONVERTED" literal="true"/>
+        </args>
+    </payloadFactory>
+    <respond description="classsend"/>
+</sequence>
